@@ -31,6 +31,7 @@ header {
     background: -moz-linear-gradient(182deg,darkblue 5%, #000000 50%, #000000 100%);
     align-items: center;
     padding: 0;
+    padding-bottom: 10px;
 }
 
 #logo-vair {
@@ -216,7 +217,7 @@ main{
     font-family: 'Bebas Neue', sans-serif;
 }
 .channel p span {
-    color: rgb(0, 0, 0);
+    color: rgb(255, 0, 0);
 }
 
 .channel-icon {
@@ -228,16 +229,18 @@ main{
     padding: 10px;
     border-radius: 30px;
     transition: .2s;
+    color: aliceblue;
 }
 .channel a:hover{
     background-color: rgba(0, 0, 0, 0.637);
+    color: red;
     transform: translateY(-10px);
     transition: .5s;
 }
 
-.channel-icon i {
-    color: aliceblue;
-}
+
+
+
 
 /* footer  */
 .footer{
@@ -304,12 +307,21 @@ main{
     margin-left: 20%;
     line-height: 2em;
 }
+.instansi{
+    padding: 20px;
+    text-align: center;
+}
+.instansi img{
+    height: 100px;
+    margin: 10px;
+}
 
 .right-footer{
     width: auto;
 }
 .contact-us{
     display:flex ;
+    gap: 6vh;
     flex-direction: column;
     text-align: center;
     border-radius: 30px;
@@ -360,6 +372,9 @@ background: -moz-linear-gradient(90deg,#000000 0%, #011253 80%);
     color: whitesmoke;
     background-color: #000000;
 }
+
+
+/* keyframes */
 @keyframes fadeInOut {
     0% {
         opacity: 0.25;
@@ -413,6 +428,23 @@ background: -moz-linear-gradient(90deg,#000000 0%, #011253 80%);
         width: 100%;
     }
 }
+
+.slide-in {
+    animation: slideIn 2s ease;
+    opacity: 1;
+    transform: translateX(0);
+  }
+  
+  @keyframes slideIn {
+    from {
+      opacity: 0;
+      transform: translateX(-50px); 
+    }
+    to {
+      opacity: 1;
+      transform: translateX(0);
+    }
+  }
 
 /* responsive */
 

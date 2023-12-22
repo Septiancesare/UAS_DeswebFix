@@ -28,6 +28,7 @@ header {
     background: -moz-linear-gradient(182deg,darkblue 5%, #000000 50%, #000000 100%);
     align-items: center;
     padding: 0;
+    padding-bottom: 15px;
 }
 
 #logo-vair {
@@ -111,6 +112,7 @@ box-shadow: -12px 11px 3px -3px rgba(0,153,255,0.62);
 
 .card{
     width: 25vw;
+    height: 59vh;
 }
 
 .card a{
@@ -259,6 +261,7 @@ box-shadow: -12px 11px 3px -3px rgba(0,153,255,0.62);
 }
 .contact-us{
     display:flex ;
+    gap: 6vh;
     flex-direction: column;
     text-align: center;
     border-radius: 30px;
